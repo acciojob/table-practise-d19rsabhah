@@ -1,30 +1,28 @@
 /*  your css code here. If applicable */
 table {
       width: 70%;
-      margin: 20px auto;
-      border-collapse: collapse;
-      text-align: center;
+      margin: 20px 30px;
+      text-align: left;
+	
       font-family: Arial, sans-serif;
       background-color: yellow; /* Added yellow background as per earlier requirements */
       border: 1px solid black; /* Fix: Explicitly defining border for the table */
     }
     th, td {
       border: 1px solid black; /* Fix: Ensure all cells have a consistent border */
-      padding: 10px 15px;
+      padding: 5px 2px;
     }
     thead th {
-      background-color: #4CAF50;
-      color: white;
-      font-size: 1.2em;
-    }
-    tbody tr:nth-child(even) {
-      background-color: #f2f2f2;
-    }
-    tbody tr:hover {
-      background-color: #e9ffe9;
-    }
-    caption {
+      background-color: yellow;
+      color: #000;
+		font-weight: bold;
+	  text-align: left
       font-size: 1.5em;
-      margin-bottom: 10px;
+	
+    }
+
+    caption {
+      font-size: 2em;
+      margin-bottom: 5px;
       font-weight: bold;
     }
